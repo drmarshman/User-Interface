@@ -63,4 +63,30 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+/* nav {
+	display: inline-block;
+	border: 5px solid black;
+	width: 600px;
+	height: 100px;
+} */
+
+a {
+	display: inline-block;
+	border: 5px solid black;
+	height: 100px;
+	width: 100px;
+	padding-top: 25px;
+	margin: 50px 50px 50px;
+	text-align: center;
+	color: purple;
+}
+
+<div>
+ <img class="logo" src="img/logo.png" 
+ "alt=Great Idea! Company logo."
+ 
+ text:
+
+hmmmm
+
+
