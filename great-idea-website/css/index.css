@@ -63,30 +63,97 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* nav {
-	display: inline-block;
-	border: 5px solid black;
-	width: 600px;
-	height: 100px;
-} */
-
-a {
-	display: inline-block;
-	border: 5px solid black;
-	height: 100px;
-	width: 100px;
-	padding-top: 25px;
-	margin: 50px 50px 50px;
-	text-align: center;
-	color: purple;
+/* Your code starts here! */
+body {
+	margin: 40px;
 }
-
-<div>
- <img class="logo" src="img/logo.png" 
- "alt=Great Idea! Company logo."
- 
- text:
-
-hmmmm
-
-
+h2 {
+	font-size: 24px;
+}
+h3 {
+	font-size: 20px;
+}
+header {
+	display: flex;
+	margin-bottom: 20px;
+}
+header > * {
+	flex: 1;
+}
+header h1 {
+	align-self: flex-end;
+}
+header img {
+	float: right;
+}
+nav {
+	display: flex;
+	padding-top: 10px;
+}
+nav a {
+	color: gray;
+	font-weight: bold;
+	text-decoration: none;
+}
+nav > * {
+	flex: 1;
+}
+.services-image {
+	width: 100%;
+}
+.services-header {
+	margin-top: 40px;
+}
+.services-list {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.services-row {
+	display: flex;
+}
+.services-row > * {
+	flex: 1;
+	background: #f4f3f4;;
+	border: 1px solid black;
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.services-row > *:first-child {
+	margin-right: 20px;
+}
+.services-row > *:last-child {
+	margin-left: 20px;
+}
+.services-button {
+	background: white;
+	font-size: 12px;
+	color: black;
+	padding: 10px;
+	display: inline-block;
+	border: 1px solid black;
+	border-radius: 5px;
+	text-decoration: none;
+	margin-top: 20px;
+	width: 150px;
+	text-align: center;
+}
+.services-info-pic {
+	margin-left: 20px;
+	float: right;
+}
+ul {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	list-style: square;
+}
+footer {
+	clear: both;
+	padding-top: 40px;
+	text-align: center;
+}
